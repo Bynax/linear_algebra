@@ -6,7 +6,7 @@
 
 ### 目录
 
-- [lecture01 方程组的几何解释](./lecture01/lecture01.pdf)
+- [lecture01 方程组的几何解释](./lecture01/Lecture01.pdf)
 - [lecture02 矩阵消元法](./lecture02/lecture02.pdf)
 - [lecture03 矩阵乘法和逆矩阵](./lecture03/lecture03.pdf)
 - 
