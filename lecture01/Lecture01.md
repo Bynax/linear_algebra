@@ -36,3 +36,27 @@ x\left[\begin{array}{c}{2} \\ {-1}\end{array}\right]+y\left[\begin{array}{c}{-1}
 $$
 此时我们就将方程组的问题转化成寻找一组合适的参数，将向量$\left[\begin{array}{c}{2} \\ {-1}\end{array}\right]$和$\left[\begin{array}{c}{-1} \\ {2}\end{array}\right]$线性组合构成$\left[\begin{array}{l}{0} \\ {3}\end{array}\right]$。因此$AX$可以看作是A各列的线性组合。
 
+### 方程组的几何解释推广
+
+在这部分中我们以方程组
+$$
+\left\{\begin{array}{r}{2 x-y=0} \\ {-x+2 y-z=-1} \\ {-3 y+4 z=4}\end{array}\right.
+$$
+为例。
+
+### 行图像角度
+
+同上面的相同，将上面的方程组按照行改写成矩阵的形式可以得到
+$$
+\left[\begin{array}{cc}{2} & {-1} & {0} \\ {-1} & {2} & {-1} \\ {0} & {-3} & {4}\end{array}\right]\left[\begin{array}{l}{x} \\ {y}\\{z}\end{array}\right]=\left[\begin{array}{c}{0} \\ {-1}\\{4}\end{array}\right]
+$$
+这个矩阵的行图像若有解则是三个平面相交得到一点。而随着维度增加，行图像的绘制会越来越难，因此在高维上行图像的局限越来越多。
+
+#### 列图像角度
+
+对于上述方程，如果使用列图像的角度，可写出对应的矩阵：
+$$
+x\left[\begin{array}{c}{2} \\ {-1}\\{0}\end{array}\right]+y\left[\begin{array}{c}{-1} \\ {2}\\{3}\end{array}\right]+z\left[\begin{array}{c}{0} \\ {-1}\\{4}\end{array}\right]=\left[\begin{array}{c}{0} \\ {-1}\\{4}\end{array}\right]
+$$
+因此同样可以将上述方程组看作是寻找三个向量的线性组合。
+
